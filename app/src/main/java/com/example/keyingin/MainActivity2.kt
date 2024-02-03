@@ -25,15 +25,15 @@ class MainActivity2 : AppCompatActivity() {
             MyData.color = Color.YELLOW
         }
         binding.btnHavo.setOnClickListener {
-            Toast.makeText(this,"Cyan bosildi", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"Blue bosildi", Toast.LENGTH_SHORT).show()
             MyData.color = Color.CYAN
         }
         binding.btnSiyoh.setOnClickListener {
-            Toast.makeText(this,"SiyohRang bosildi", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"Purple bosildi", Toast.LENGTH_SHORT).show()
             MyData.color = Color.MAGENTA
         }
         binding.btnKul.setOnClickListener {
-            Toast.makeText(this,"Gray bosildi", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"Grey bosildi", Toast.LENGTH_SHORT).show()
             MyData.color = Color.LTGRAY
         }
 
